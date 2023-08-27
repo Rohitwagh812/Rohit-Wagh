@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+body{
+    background: #C5CAE9;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    padding: 0.8rem;
+}
+
+header h1{
+   color: #00796B;
+   cursor: no-drop;
+}
+
+header button{
+    border: #00796B 1.5px solid;
+    border-radius: 16px;
+    padding: 0.7rem 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #D84315;
+    cursor: pointer;
+    background: #BDBDBD;
+}
+
+.notes{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    padding: 0.8rem;
+}
+
+.notes .note{
+    border: #00796B 1px solid;
+    background: white;
+    margin: 1rem;
+    padding: 0.8rem;
+    border-radius: 16px;
+}
+
+h3{
+    margin: 0.5rem 0;
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+.notes .note button{
+    background: #4CAF50;
+    border-radius: 16px;
+    padding: 0.8rem 1rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 0.8rem 0;
+    
+}
+
+hr{
+    border: 0.6px solid #000;
+}
+
+.createnote{
+    background: white;
+    border: 1px solid darkgray;
+    padding: 1rem;
+    width: 30vw;
+    margin: 1rem;
+    border-radius: 12px;
+}
+
+input , textarea{
+    display: block;
+    padding: 0.8rem 1rem;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+
+.createnote button{
+    background: #00796B;
+    border-radius: 16px;
+    padding: 0.8rem 2rem;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 0.8rem 0;
+}
+
+h2{
+    color: #303F9F;
+    margin: 1rem;
+}
+.F{
+    color: #880E4F;
+}
